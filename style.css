@@ -1,0 +1,108 @@
+.layout {
+  margin: 20px 200px;
+}
+
+#calendar {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  height: 650px;
+}
+
+#calendar__header {
+  background-color: greenyellow;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#calendar__subheader {
+  text-align: center;
+  font-weight: bold;
+}
+
+#selectedDayOfWeek {
+  text-decoration: underline;
+}
+
+#calendar__footer{
+    background-color: rgb(137, 128, 41);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 0px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  border-radius: 5px;
+  border-spacing: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 2px;
+}
+
+tr th {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: blanchedalmond;
+}
+
+tr td{
+    font-size: 22px;
+    height: 60px;
+    background-color: rgb(233, 238, 196);
+}
+
+.arrowButton{
+    color: white;
+    background-color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+#resetButton{
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
+}
+#inputDayInMonth, #inputMonth{
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#inputYear{
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.separator{
+  margin: 0px 5px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.sunday{
+    color: red;
+}
+
+.saturday{
+    columns: blue;
+}
+
+#submitButton{
+  margin: 0px 5px;
+  border-radius: 5px;
+}

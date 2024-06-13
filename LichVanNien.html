@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lich Van Nien</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="container" class="layout box">
+    <div id='calendar'>
+      <div id="calendar__header">tháng <span id="currentMonth"></span> năm <span id="currentYear"></span></div>
+
+      <div id="calendar__subheader">
+        <h1 id="dayInMonthLabel">INVALID SCRIPT</h1>
+        <h2 id="selectedDayOfWeek">INVALID SCRIPT</h2>
+      </div>
+
+      <div id="calendar__body">
+        <table id="calendarTable">
+          <thead>
+            <tr>
+              <th>CN</th>
+              <th>T2</th>
+              <th>T3</th>
+              <th>T4</th>
+              <th>T5</th>
+              <th>T6</th>
+              <th>T7</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+      <div id="calendar__footer">
+        <button class="arrowButton" id="prev-year" type="button">
+          << </button>
+            <button class="arrowButton" id="prev-month" type="button">
+              < </button>
+
+                <input type="number" min="1" name="inputDayInMonth" id="inputDayInMonth">
+                <span class="separator">/</span>
+                <input type="number" min="1" max="12" name="inputMonth" id="inputMonth">
+                <span class="separator">/</span>
+                <input type="number" min="1" max="9999" name="inputYear" id="inputYear">
+
+                <button id="submitButton" type="button"> GO </button>
+
+                <button class="arrowButton" id="next-month" type="button"> > </button>
+                <button class="arrowButton" id="next-year" type="button"> >> </button>
+
+                <button id="resetButton" type="button"> @ </button>
+      </div>
+    </div>
+  </div>
+  <script src="functions.js"></script>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+
+</html>
